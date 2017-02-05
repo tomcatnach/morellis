@@ -71,3 +71,8 @@ Icon
 # ---------------
 
 /content/*
+
+# .htaccess
+# ---------------
+
+.htaccess
