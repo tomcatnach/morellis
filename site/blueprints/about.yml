@@ -2,13 +2,9 @@ title: About
 
 pages:
   template: team
-  num: zero
-
-files: false
 
 options: 
-  template: false  
-  status: false  
+  template: false 
   
 fields:
   title:

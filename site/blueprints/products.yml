@@ -17,3 +17,7 @@ fields:
   text:
     label: Text
     type:  textarea
+    
+  text2:
+    label: Text 2 Test
+    type: textarea
