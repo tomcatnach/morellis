@@ -17,20 +17,10 @@ body {
   margin-top: 100vh;
 }
 
-//.navbar.center .navbar-inner {
-//    text-align: center;
-//}
-//.navbar.center .navbar-inner .nav {
-//    float: none;
-//    display:inline-block;
-//}
-//
-//.navbar .navbar-nav {
-//        display: inline-block;
-//        float: none;
-//        vertical-align: top;
-//    }
-//
-//    .navbar .navbar-collapse {
-//        text-align: center;
-//    }
+#home-jumbo {
+  background: url(../images/home-cover.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
