@@ -4,3 +4,33 @@ body {
   background-color: $deep_purple;
   font-family: frutiger;
 }
+
+.jumbotron {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.who-we-work-with {
+  margin-top: 100vh;
+}
+
+//.navbar.center .navbar-inner {
+//    text-align: center;
+//}
+//.navbar.center .navbar-inner .nav {
+//    float: none;
+//    display:inline-block;
+//}
+//
+//.navbar .navbar-nav {
+//        display: inline-block;
+//        float: none;
+//        vertical-align: top;
+//    }
+//
+//    .navbar .navbar-collapse {
+//        text-align: center;
+//    }
