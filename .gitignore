@@ -78,3 +78,8 @@ Icon
 .htaccess
 
 id_rsa_macbook.txt
+
+# Grunt Files
+# ---------------
+/node_modules/*
+/.sass-cache/*
