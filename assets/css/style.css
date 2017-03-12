@@ -1,3 +1,35 @@
+.bg-white {
+  background-color: white; }
+
+#home-jumbo-content {
+  height: 100vh; }
+  #home-jumbo-content img {
+    margin-top: 30px;
+    max-width: 100%; }
+  #home-jumbo-content .intro-text {
+    margin-top: 4rem;
+    color: white;
+    font-family: washington; }
+    #home-jumbo-content .intro-text h2 {
+      font-size: 4rem;
+      font-weight: bold;
+      text-align: center; }
+  #home-jumbo-content .info-box {
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    color: white;
+    text-align: center;
+    height: 86px;
+    width: 140px;
+    line-height: 86px; }
+  #home-jumbo-content #story {
+    background: url(../images/story.png) no-repeat center center; }
+  #home-jumbo-content #products {
+    background: url(../images/products.png) no-repeat center center; }
+  #home-jumbo-content #stores {
+    background: url(../images/stores.png) no-repeat center center; }
+
 body {
   background-color: #4A367B;
   font-family: frutiger; }
@@ -10,7 +42,7 @@ body {
   z-index: -1; }
 
 .who-we-work-with {
-  margin-top: 100vh; }
+  top: 100vh; }
 
 #home-jumbo {
   background: url(../images/home-cover.jpg) no-repeat center center fixed;

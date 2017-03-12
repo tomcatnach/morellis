@@ -1,14 +1,43 @@
 <?php snippet('header') ?>
-
-  <main class="main" role="main">
     
     <div class="jumbotron jumbotron-fluid" id="home-jumbo">
-      <div class="container">
-        <h1 class="display-3">Fluid jumbotron</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-      </div>
+
     </div>
     
+    <div class="container" id="home-jumbo-content">
+        <div class="col-6">
+          <img src="../../assets/images/mg-logo-large.png">
+          <div class="intro-text">
+            <h2>
+              <?= $page->intro()->kirbytext() ?>
+            </h2>
+          </div>
+          <div class="row info-boxes">
+            <div class="col">
+              <a href="<?= $pages->findByURI('products')->url() ?>">
+                <div id="story" class="info-box">
+                  Our Story
+                </div>
+              </a>
+            </div>
+            <div class="col">
+              <a>
+                <div id="products" class="info-box">
+                  Our Products
+                </div>
+              </a>
+            </div>
+            <div class="col">
+              <a href="www.google.com">
+                <div id="stores" class="info-box">
+                  Our Stores
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
     <div class="container who-we-work-with">
     a
     </div>
@@ -34,7 +63,5 @@
       </div>
       
     </section>
-
-  </main>
 
 <?php snippet('footer') ?>

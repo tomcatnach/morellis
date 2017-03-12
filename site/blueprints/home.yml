@@ -9,7 +9,7 @@ fields:
 
   intro:
     label: Intro
-    type:  textarea
+    type:  text
 
   text:
     label: Text

@@ -1,0 +1,37 @@
+#home-jumbo-content{
+  height: 100vh;
+  img {
+    margin-top: 30px;
+    max-width: 100%;
+  }
+  .intro-text{
+    margin-top: 4rem;
+    color: white;
+    font-family: washington;
+    h2 {
+      font-size: 4rem;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+  .info-box{
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    color: white;
+    text-align: center;
+    height: 86px;
+    width: 140px;
+    line-height: 86px;
+  }
+  #story {
+    background: url(../images/story.png) no-repeat center center;
+  }
+  #products {
+    background: url(../images/products.png) no-repeat center center;
+  }
+  #stores {
+    background: url(../images/stores.png) no-repeat center center;
+  }
+  
+}
