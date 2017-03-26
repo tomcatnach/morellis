@@ -3,7 +3,6 @@
 @import 'home';
 
 body {
-  background-color: $deep_purple;
   font-family: frutiger;
 }
 
@@ -20,7 +19,7 @@ body {
 }
 
 #home-jumbo {
-  background: url(../images/home-cover.jpg) no-repeat center center fixed; 
+  background: url(../images/home-cover.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
