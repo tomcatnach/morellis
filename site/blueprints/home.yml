@@ -14,3 +14,7 @@ fields:
   text:
     label: Text
     type:  textarea
+
+  credentialOne:
+    label: First Credential
+    type: page
