@@ -1,0 +1,45 @@
+.contact {
+  margin-top: 3rem;
+  width: 100%;
+  background-color: $deep_purple;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+
+  .title {
+    font-family: washington;
+    font-weight: bold;
+    font-size: 4rem;
+  }
+
+  input {
+    width: 100%;
+    margin-bottom: 2rem;
+    background-color: $mid_purple;
+    border: none;
+    padding: 0.5rem;
+  }
+
+}
+
+input[type=submit] {
+  color: white;
+}
+
+input[type=text] {
+  color: white;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $light_purple;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}

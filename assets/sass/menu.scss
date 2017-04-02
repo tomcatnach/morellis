@@ -1,3 +1,24 @@
 .bg-white {
   background-color: white;
 }
+
+.navbar {
+  text-transform: uppercase;
+  color: $deep_purple;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $deep_purple;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: $light_purple;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: $deep_purple;
+  font-weight: bold;
+  text-decoration: underline;
+}

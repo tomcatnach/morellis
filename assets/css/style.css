@@ -1,11 +1,31 @@
 .bg-white {
   background-color: white; }
 
+.navbar {
+  text-transform: uppercase;
+  color: #4A367B; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #4A367B;
+  letter-spacing: 1px;
+  font-size: 14px; }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #D7D4E9; }
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #4A367B;
+  font-weight: bold;
+  text-decoration: underline; }
+
 #home-jumbo-content {
-  height: 100vh; }
+  height: 90vh;
+  margin-bottom: 10vh; }
   #home-jumbo-content img {
     margin-top: 30px;
     max-width: 100%; }
+  #home-jumbo-content #home-jumbo-row {
+    height: inherit; }
   #home-jumbo-content .intro-text {
     margin-top: 4rem;
     color: white;
@@ -19,10 +39,11 @@
     border-color: white;
     border-width: 4px;
     color: white;
-    text-align: center;
     height: 86px;
     width: 140px;
-    line-height: 86px; }
+    line-height: 86px;
+    text-align: center;
+    margin: 0 auto; }
   #home-jumbo-content #story {
     background: url(../images/story.png) no-repeat center center; }
   #home-jumbo-content #products {
@@ -32,6 +53,58 @@
 
 #who-we-work-with {
   text-align: center; }
+  #who-we-work-with .title {
+    font-family: washington;
+    font-weight: bold; }
+  #who-we-work-with h2 {
+    font-weight: bold;
+    color: #4A367B;
+    text-decoration: underline;
+    font-size: 3rem;
+    text-transform: uppercase; }
+
+.media-row {
+  margin-top: 2rem; }
+
+.contact {
+  margin-top: 3rem;
+  width: 100%;
+  background-color: #4A367B;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  .contact .title {
+    font-family: washington;
+    font-weight: bold;
+    font-size: 4rem; }
+  .contact input {
+    width: 100%;
+    margin-bottom: 2rem;
+    background-color: #7858BF;
+    border: none;
+    padding: 0.5rem; }
+
+input[type=submit] {
+  color: white; }
+
+input[type=text] {
+  color: white; }
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #D7D4E9; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white; }
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: white; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: white; }
 
 body {
   font-family: frutiger; }
