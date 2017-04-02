@@ -7,7 +7,7 @@
     <div class="container" id="home-jumbo-content">
       <div class="row" id="home-jumbo-row">
         <div class="col-12 col-xl-6 col align-self-center">
-          <img src="../../morellis/morellis/assets/images/mg-logo-large.png">
+          <img src="../../assets/images/mg-logo-large.png">
           <div class="intro-text">
             <h2>
               <?= $page->intro()->kirbytext() ?>
