@@ -50,6 +50,17 @@
     background: url(../images/products.png) no-repeat center center; }
   #home-jumbo-content #stores {
     background: url(../images/stores.png) no-repeat center center; }
+  @media (max-width: 520px) {
+    #home-jumbo-content .info-box {
+      width: 100px;
+      height: 60px;
+      line-height: 55px;
+      margin-bottom: 15px; }
+    #home-jumbo-content #products {
+      padding-top: 7px;
+      line-height: 20px; }
+    #home-jumbo-content .intro-text h2 {
+      font-size: 2.5rem; } }
 
 #who-we-work-with {
   text-align: center; }
@@ -77,6 +88,10 @@
     font-family: washington;
     font-weight: bold;
     font-size: 4rem; }
+  .contact a {
+    color: white; }
+    .contact a :hover {
+      color: #D7D4E9; }
   .contact input {
     width: 100%;
     margin-bottom: 2rem;
@@ -92,7 +107,7 @@ input[type=text] {
 
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
-  color: #D7D4E9; }
+  color: white; }
 
 ::-moz-placeholder {
   /* Firefox 19+ */
@@ -105,6 +120,16 @@ input[type=text] {
 :-moz-placeholder {
   /* Firefox 18- */
   color: white; }
+
+.footer {
+  background-color: #4A367B; }
+  .footer .container {
+    border-top: 3px solid white;
+    padding: 30px 0;
+    color: white;
+    font-size: 0.75rem; }
+    .footer .container .address {
+      text-align: right; }
 
 body {
   font-family: frutiger; }

@@ -13,6 +13,13 @@
     font-size: 4rem;
   }
 
+  a {
+    color: white;
+    :hover {
+      color: $light_purple;
+    }
+  }
+
   input {
     width: 100%;
     margin-bottom: 2rem;
@@ -32,7 +39,7 @@ input[type=text] {
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: $light_purple;
+  color: white;
 }
 ::-moz-placeholder { /* Firefox 19+ */
   color: white;

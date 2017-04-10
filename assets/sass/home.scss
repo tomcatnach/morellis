@@ -42,6 +42,26 @@
     background: url(../images/stores.png) no-repeat center center;
   }
 
+
+  @media (max-width:520px) {
+    .info-box {
+      width: 100px;
+      height: 60px;
+      line-height: 55px;
+      margin-bottom: 15px;
+    }
+    #products {
+      padding-top: 7px;
+      line-height: 20px;
+    }
+    .intro-text{
+      h2{
+        font-size: 2.5rem;
+      }
+    }
+
+  }
+
 }
 
 #who-we-work-with {
