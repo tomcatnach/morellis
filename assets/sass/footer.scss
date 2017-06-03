@@ -1,14 +1,19 @@
 .footer{
   background-color: $deep_purple;
+}
 
-  .container{
-    border-top: 3px solid white;
-    padding: 30px 0;
-    color: white;
-    font-size: 0.75rem;
+.foot{
+  background-color: $deep_purple;
+  border-top: 3px solid white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  font-size: 0.75rem;
 
-    .address {
-      text-align: right;
+  .address {
+    text-align: right;
+    @media #{$xs} {
+      text-align: left;
     }
   }
 }

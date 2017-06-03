@@ -1,0 +1,17 @@
+title: Store
+
+files:
+  sortable: true
+
+pages: false
+
+fields:
+  location:
+    label: Location
+    type: map
+    center:
+      lat: 45.5230622
+      lng: -122.6764816
+      zoom: 9
+    help: >
+      Move the pin wherever you'd like, or search for a location!

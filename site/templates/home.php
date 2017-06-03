@@ -53,17 +53,17 @@
 
     <div class="container media-row">
       <div class="row">
-        <div class="instagram col">
+        <div class="instagram col-xs-12 col-sm-4">
           <!-- LightWidget WIDGET -->
           <iframe src="//lightwidget.com/widgets/24d94ddc518357bbb2c481b7c064b569.html" scrolling="no"
           allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
         </div>
-        <div class="instagram col">
+        <div class="instagram col-xs-12 col-sm-4">
           <!-- LightWidget WIDGET -->
           <iframe src="//lightwidget.com/widgets/1d1ca7923e7a5762a4c25b24c9928f33.html" scrolling="no"
           allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
         </div>
-        <div class="instagram col">
+        <div class="instagram col-xs-12 col-sm-4">
           <!-- LightWidget WIDGET -->
           <iframe src="//lightwidget.com/widgets/2fdd688674b852ec9c99eef9aa131b5d.html" scrolling="no"
           allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
