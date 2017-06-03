@@ -2,113 +2,62 @@
 
 <div class="container">
   <div class="row">
-    <div class="col">
-      <?php $len = count($page->children());?>
-      <?php echo $len ?>
-      <?php foreach($page->children() as $subpage): ?>
-        <a href="<?php echo $subpage->url() ?>">
-          <?php echo html($subpage->title()) ?>
-        </a>
-        <?php echo $subpage->location()->yaml()['lat']; ?>
-      <?php endforeach ?>
-
-    <!-- $location = $page->location()->yaml(); -->
+    <div class="col-6">
+      <h1>Our Stores</h1>
+    </div>
+    <div class="col-6">
+      We have 18 stores worldwide and we’re always looking to expand.
+      If you would like more details about being a franchisee click here.
     </div>
   </div>
 </div>
 
-<div class="">
-  <?php
-    $i = 1;
-    $len = count($page->children());
-    foreach ($page->children() as $subpage) {
-        if ($i != $len) {
-          echo "['";
-          echo $subpage->title();
-          echo "', ";
-          echo $subpage->location()->yaml()['lat'];
-          echo ", ";
-          echo $subpage->location()->yaml()['lng'];
-          echo "],";
-        } else {
-          echo "['";
-          echo $subpage->title();
-          echo "', ";
-          echo $subpage->location()->yaml()['lat'];
-          echo ", ";
-          echo $subpage->location()->yaml()['lng'];
-          echo "]";
-        }
-        $i++;
-    }
-  ?>
-</div> <?php echo count($page->children());?>
+<?php snippet('our-stores-map')?>
 
 <div class="container">
-  <div class="row">
-    <div class="col">
-      <script src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyA8czOO-ZWzUP-K3WOJ6z3tCsV1ZBxmU_E"
-        type="text/javascript"></script>
-
-      <div id="map" style="width: 500px; height: 400px;"></div>
-
-      <script type="text/javascript">
-        var locations = [
-          <?php
-            $i = 1;
-            $len = count($page->children());
-            foreach ($page->children() as $subpage) {
-                if ($i != $len) {
-                  echo "['";
-                  echo $subpage->title();
-                  echo "', ";
-                  echo $subpage->location()->yaml()['lat'];
-                  echo ", ";
-                  echo $subpage->location()->yaml()['lng'];
-                  echo "],";
-                } else {
-                  echo "['";
-                  echo $subpage->title();
-                  echo "', ";
-                  echo $subpage->location()->yaml()['lat'];
-                  echo ", ";
-                  echo $subpage->location()->yaml()['lng'];
-                  echo "]";
-                }
-                $i++;
-            }
-          ?>
-        ];
-
-
-
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 1,
-          center: new google.maps.LatLng(51.50, -0.12),
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-
-        });
-
-        var infowindow = new google.maps.InfoWindow();
-
-        var marker, i;
-
-        for (i = 0; i < locations.length; i++) {
-          marker = new google.maps.Marker({
-            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-            map: map
-          });
-
-          google.maps.event.addListener(marker, 'click', (function(marker, i) {
-            return function() {
-              infowindow.setContent(locations[i][0]);
-              infowindow.open(map, marker);
-            }
-          })(marker, i));
-        }
-      </script>
+  <?php foreach($page->children()->visible() as $subpage): ?>
+    <div class="row">
+      <div class="col-3">
+        <?php if($subpage->storeimage()->isNotEmpty()): ?>
+          <div class="col align-self-center">
+            <img src="<?= $subpage->storeimage()->toFile()->resize(190, 120)->url() ?>" alt="" />
+          </div>
+        <?php endif ?>
+      </div>
+      <div class="col-3">
+        <a href="<?php echo $subpage->url() ?>">
+          <?php echo html($subpage->title()) ?>
+        </a>
+        <?php if(!$subpage->lineone()->empty()): ?>
+          <?php echo $subpage->lineone()->html() ?>
+        <?php endif ?>
+        <?php if(!$subpage->linetwo()->empty()): ?>
+          <?php echo $subpage->linetwo()->html() ?>
+        <?php endif ?>
+        <?php if(!$subpage->linethree()->empty()): ?>
+          <?php echo $subpage->linethree()->html() ?>
+        <?php endif ?>
+        <?php if(!$subpage->city()->empty()): ?>
+          <?php echo $subpage->city()->html() ?>
+        <?php endif ?>
+        <?php if(!$subpage->country()->empty()): ?>
+          <?php echo $subpage->country()->kirbytext() ?>
+        <?php endif ?>
+        <?php if(!$subpage->postcode()->empty()): ?>
+          <?php echo $subpage->postcode()->kirbytext() ?>
+        <?php endif ?>
+      </div>
+      <div class="col-3">
+        <?php
+          $days = array ('monday', 'tuesday', 'wednesday', 'thursday',
+            'friday', 'saturday', 'sunday');
+          foreach ($days as $day) {
+            echo $day; //need to capitalize first letter with CSS
+          }
+        ?>
+      </div>
     </div>
-  </div>
+  <?php endforeach ?>
 </div>
 
 <?php snippet('footer') ?>

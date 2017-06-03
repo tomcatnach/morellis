@@ -6,6 +6,39 @@ files:
 pages: false
 
 fields:
+  title:
+    label: Title
+    type:  text
+  lineone:
+    label: Address Line 1
+    type:  text
+    width: 1/3
+  linetwo:
+    label: Address Line 2
+    type:  text
+    width: 1/3
+  linethree:
+    label: Address Line 3
+    type:  text
+    width: 1/3
+  city:
+    label: City
+    type:  text
+    width: 1/3
+  country:
+    label: Country
+    type:  text
+    width: 1/3
+  postcode:
+    label: Postal Code
+    type: text
+    width: 1/3
+  phone:
+    label: Phone
+    type:  text
+    width: 1/3
+  line-a:
+    type: line
   location:
     label: Location
     type: map
@@ -15,3 +48,127 @@ fields:
       zoom: 9
     help: >
       Move the pin wherever you'd like, or search for a location!
+  line-b:
+    type: line
+  storeImage:
+    label: Image
+    type: image
+  monday:
+    label: Monday
+    type: headline
+  mondaytoggle:
+    label: Open?
+    type: toggle
+    width: 1/2
+  mondayopen:
+    label: Opening Time
+    type: time
+    interval: 15
+    width: 1/4
+  mondayclose:
+    label: Close Time
+    type: time
+    interval: 15
+    width: 1/4
+  tuesday:
+    label: Tuesday
+    type: headline
+  tuesdaytoggle:
+    label: Open?
+    type: toggle
+    width: 1/2
+  tuesdayopen:
+    label: Opening Time
+    type: time
+    interval: 15
+    width: 1/4
+  tuesdayclose:
+    label: Close Time
+    type: time
+    interval: 15
+    width: 1/4
+  wednesday:
+    label: Wednesday
+    type: headline
+  wednesdaytoggle:
+    label: Open?
+    type: toggle
+    width: 1/2
+  wednesdayopen:
+    label: Opening Time
+    type: time
+    interval: 15
+    width: 1/4
+  wednesdayclose:
+    label: Close Time
+    type: time
+    interval: 15
+    width: 1/4
+  thursday:
+    label: Thursday
+    type: headline
+  thursdaytoggle:
+    label: Open?
+    type: toggle
+    width: 1/2
+  thursdayopen:
+    label: Opening Time
+    type: time
+    interval: 15
+    width: 1/4
+  thursdayclose:
+    label: Close Time
+    type: time
+    interval: 15
+    width: 1/4
+  friday:
+    label: Friday
+    type: headline
+  fridaytoggle:
+    label: Open?
+    type: toggle
+    width: 1/2
+  fridayopen:
+    label: Opening Time
+    type: time
+    interval: 15
+    width: 1/4
+  fridayclose:
+    label: Close Time
+    type: time
+    interval: 15
+    width: 1/4
+  saturday:
+    label: Saturday
+    type: headline
+  saturdaytoggle:
+    label: Open?
+    type: toggle
+    width: 1/2
+  saturdayopen:
+    label: Opening Time
+    type: time
+    interval: 15
+    width: 1/4
+  saturdayclose:
+    label: Close Time
+    type: time
+    interval: 15
+    width: 1/4
+  sunday:
+    label: Sunday
+    type: headline
+  sundaytoggle:
+    label: Open?
+    type: toggle
+    width: 1/2
+  sundayopen:
+    label: Opening Time
+    type: time
+    interval: 15
+    width: 1/4
+  sundayclose:
+    label: Close Time
+    type: time
+    interval: 15
+    width: 1/4
