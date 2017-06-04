@@ -1,6 +1,11 @@
 Scratchpad
 ==========
 
+LEAVE NOTES
+===========
+
+
+
 Stores
 ------
 

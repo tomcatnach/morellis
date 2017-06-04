@@ -58,7 +58,7 @@ fields:
     type: headline
   mondaytoggle:
     label: Open?
-    type: toggle
+    type: checkbox
     width: 1/2
   mondayopen:
     label: Opening Time
@@ -75,7 +75,7 @@ fields:
     type: headline
   tuesdaytoggle:
     label: Open?
-    type: toggle
+    type: checkbox
     width: 1/2
   tuesdayopen:
     label: Opening Time
@@ -92,7 +92,7 @@ fields:
     type: headline
   wednesdaytoggle:
     label: Open?
-    type: toggle
+    type: checkbox
     width: 1/2
   wednesdayopen:
     label: Opening Time
@@ -109,7 +109,7 @@ fields:
     type: headline
   thursdaytoggle:
     label: Open?
-    type: toggle
+    type: checkbox
     width: 1/2
   thursdayopen:
     label: Opening Time
@@ -126,7 +126,7 @@ fields:
     type: headline
   fridaytoggle:
     label: Open?
-    type: toggle
+    type: checkbox
     width: 1/2
   fridayopen:
     label: Opening Time
@@ -143,7 +143,7 @@ fields:
     type: headline
   saturdaytoggle:
     label: Open?
-    type: toggle
+    type: checkbox
     width: 1/2
   saturdayopen:
     label: Opening Time
@@ -160,7 +160,7 @@ fields:
     type: headline
   sundaytoggle:
     label: Open?
-    type: toggle
+    type: checkbox
     width: 1/2
   sundayopen:
     label: Opening Time
