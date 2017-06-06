@@ -20,14 +20,14 @@
     </div>
     <?php foreach($page->children()->visible() as $subpage): ?>
       <div class="row store_row">
-        <div class="col-3">
+        <div class="col-6 col-md-4 col-lg-3">
           <?php if($subpage->storeimage()->isNotEmpty()): ?>
             <div class="col align-self-center">
               <img src="<?= $subpage->storeimage()->toFile()->resize(190, 120)->url() ?>" alt="" />
             </div>
           <?php endif ?>
         </div>
-        <div class="col-3">
+        <div class="col-6 col-md-4 col-lg-3">
           <div class="storeaddress">
             <a id="store-name" href="<?php echo $subpage->url() ?>">
               <?php echo html($subpage->title()) ?>
@@ -54,17 +54,17 @@
             <?php endif ?>
             <?php if(!$subpage->country()->empty()): ?>
               <div class="address-font" id="country">
-                <?php echo $subpage->country()->kirbytext() ?>
+                <?php echo $subpage->country()->html() ?>
               </div>
             <?php endif ?>
             <?php if(!$subpage->postcode()->empty()): ?>
               <div class="address-font" id="postcode">
-                <?php echo $subpage->postcode()->kirbytext() ?>
+                <?php echo $subpage->postcode()->html() ?>
               </div>
             <?php endif ?>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-6 col-md-4 col-lg-6">
           <?php $days = array ('Monday', 'Tuesday', 'Wednesday', 'Thursday',
             'Friday', 'Saturday', 'Sunday'); ?>
           <?php foreach ($days as $day): ?>

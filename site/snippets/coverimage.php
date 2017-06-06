@@ -1,5 +1,7 @@
-<?php if($item->coverimage()->isNotEmpty()): ?>
-  <figure>
-    <img src="<?= $item->coverimage()->toFile()->url() ?>" alt="" />
-  </figure>
+<?php
+$image = $page->coverimage()->toFile();
+// check if the image exists!
+if($image):
+?>
+style="background-image: url('<?= $image->url() ?>');"
 <?php endif ?>

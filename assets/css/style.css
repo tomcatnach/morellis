@@ -104,20 +104,62 @@
 .stores-page .test_border {
   width: 100%;
   border-top: 1px solid #e8e9ed; }
-.stores-page .address-font {
-  text-transform: uppercase;
-  font-size: 12px;
-  color: #9fa3a7; }
 .stores-page p {
   color: #9fa3a7;
   font-family: frutiger;
   margin-bottom: 0px; }
 .stores-page .storeaddress #store-name a {
   color: black; }
-.stores-page .day > * {
+
+.address-font {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #9fa3a7; }
+
+.day > * {
   display: inline-block; }
-.stores-page .day .dayname {
+
+.day .dayname {
   width: 70px; }
+
+.store-page .store-header {
+  background-color: #4A367B;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 600px;
+  padding-top: 200px; }
+.store-page h1 {
+  text-align: center;
+  font-family: washington;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  font-size: 76px;
+  letter-spacing: 3px; }
+  @media (max-width: 991px) {
+    .store-page h1 {
+      font-size: 60px; } }
+.store-page .store-address .address-font {
+  color: white; }
+.store-page .opentime .address-font {
+  color: white; }
+.store-page .store-text {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+  .store-page .store-text p {
+    color: #9fa3a7;
+    font-size: 14px;
+    line-height: 28px; }
+  .store-page .store-text .two-columns {
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+    -webkit-column-count: 2;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 2;
+    /* Firefox */
+    column-count: 2; }
 
 .contact {
   margin-top: 3rem;

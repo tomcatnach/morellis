@@ -42,12 +42,6 @@
     border-top: 1px solid $light_grey;
   }
 
-  .address-font {
-    text-transform: uppercase;
-    font-size: 12px;
-    color: $mid_grey;
-  }
-
   p {
     color: $mid_grey;
     font-family: frutiger;
@@ -65,16 +59,22 @@
 
   }
 
-  .day > * {
-    display: inline-block;
-  }
+}
 
-  .day {
+.address-font {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: $mid_grey;
+}
 
-    .dayname {
-      width: 70px;
-    }
+.day > * {
+  display: inline-block;
+}
 
+.day {
+
+  .dayname {
+    width: 70px;
   }
 
 }

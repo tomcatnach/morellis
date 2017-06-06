@@ -39,6 +39,14 @@ fields:
     width: 1/3
   line-a:
     type: line
+  description:
+    type: textarea
+    label: Description
+  coverImage:
+    label: Cover Image
+    type: image
+  line-c:
+    type: line
   location:
     label: Location
     type: map
