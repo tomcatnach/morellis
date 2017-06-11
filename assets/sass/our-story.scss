@@ -1,0 +1,23 @@
+.our-story {
+  h1 {
+  font-family: washington;
+  font-weight: bold;
+  color: $deep_purple;
+  text-transform: uppercase;
+  font-size: 76px;
+  letter-spacing: 3px;
+    @media #{$lg} {
+        font-size: 60px;
+    }
+  }
+
+  .cover-header {
+    p {
+      font-size: 14px;
+      color: $deep_purple;
+      font-style: italic;
+    }
+  }
+
+
+}

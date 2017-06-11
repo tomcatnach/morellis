@@ -1,0 +1,22 @@
+title: our-story
+
+pages:
+  template: team
+
+options:
+  template: false
+  pages: false
+
+fields:
+  title:
+    label: Title
+    type: title
+  coverImage:
+    label: Cover Image
+    type: image
+  intro:
+    label: Intro
+    type: textarea
+  textone:
+    label: Text First Box
+    type: textarea

@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
   <main class="main store-page" role="main">
-    <div class="container store-header" <?php snippet('coverimage') ?> >
+    <div class="container cover-header" <?php snippet('coverimage') ?> >
       <div class="row">
         <div class="col-12">
           <div class="store-title">
@@ -67,7 +67,7 @@
         </div>
       </div>
     </div>
-    
+
     <?php snippet('single-store') ?>
 
   </main>

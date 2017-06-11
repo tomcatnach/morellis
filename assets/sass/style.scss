@@ -2,10 +2,12 @@
 @import 'colors';
 @import 'menu';
 @import 'home';
+@import 'our-story';
 @import 'stores';
 @import 'store';
 @import 'contact';
 @import 'footer';
+@import 'snip-cover-image';
 
 body {
   font-family: frutiger;
@@ -29,4 +31,5 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
 }

@@ -1,13 +1,14 @@
 .store-page {
 
-  .store-header{
-    background-color: $deep_purple;
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-    height: 600px;
-    padding-top: 200px;
-  }
+// Moved to snip-cover-image as a global for use on all pages
+  // .store-header{
+  //   background-color: $deep_purple;
+  //   background-size:     cover;
+  //   background-repeat:   no-repeat;
+  //   background-position: center center;
+  //   height: 600px;
+  //   padding-top: 200px;
+  // }
 
       h1 {
       text-align: center;

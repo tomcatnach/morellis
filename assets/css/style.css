@@ -77,6 +77,21 @@
 .media-row {
   margin-top: 2rem; }
 
+.our-story h1 {
+  font-family: washington;
+  font-weight: bold;
+  color: #4A367B;
+  text-transform: uppercase;
+  font-size: 76px;
+  letter-spacing: 3px; }
+  @media (max-width: 991px) {
+    .our-story h1 {
+      font-size: 60px; } }
+.our-story .cover-header p {
+  font-size: 14px;
+  color: #4A367B;
+  font-style: italic; }
+
 .stores-page .header-row {
   margin-top: 50px;
   margin-bottom: 50px; }
@@ -122,13 +137,6 @@
 .day .dayname {
   width: 70px; }
 
-.store-page .store-header {
-  background-color: #4A367B;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 600px;
-  padding-top: 200px; }
 .store-page h1 {
   text-align: center;
   font-family: washington;
@@ -220,6 +228,14 @@ input[type=text] {
     @media (max-width: 767px) {
       .foot .address {
         text-align: left; } }
+
+.cover-header {
+  background-color: #4A367B;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 600px;
+  padding-top: 200px; }
 
 body {
   font-family: frutiger; }

@@ -1,0 +1,10 @@
+
+//USAGE     <div class="container cover-header" <?php snippet('coverimage') ?> >
+.cover-header{
+  background-color: $deep_purple;
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  height: 600px;
+  padding-top: 200px;
+}
