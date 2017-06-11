@@ -1,0 +1,11 @@
+title: Product
+
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  coverimage:
+    label: image
+    type: image

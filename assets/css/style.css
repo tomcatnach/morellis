@@ -18,6 +18,14 @@
   font-weight: bold;
   text-decoration: underline; }
 
+#home-jumbo {
+  background: no-repeat center center fixed;
+  background-color: #4A367B;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 #home-jumbo-content {
   height: 90vh;
   margin-bottom: 10vh; }
@@ -77,6 +85,10 @@
 .media-row {
   margin-top: 2rem; }
 
+.our-story .top-margin {
+  margin-top: 30px; }
+.our-story .container {
+  margin-bottom: 30px; }
 .our-story h1 {
   font-family: washington;
   font-weight: bold;
@@ -180,6 +192,52 @@
     /* Firefox */
     column-count: 2; }
 
+h1 {
+  text-align: center;
+  font-family: washington;
+  font-weight: bold;
+  color: #4A367B;
+  text-transform: uppercase;
+  font-size: 76px;
+  letter-spacing: 3px;
+  padding-top: 30px; }
+  @media (max-width: 991px) {
+    h1 {
+      font-size: 60px; } }
+
+.blog-item {
+  background-color: #4A367B;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0 0 0 0; }
+  .blog-item .square {
+    padding-bottom: 100%;
+    background-color: rgba(151, 34, 192, 0);
+    transition: background-color 0.5s ease; }
+    .blog-item .square:hover {
+      background-color: rgba(151, 34, 192, 0.6); }
+    .blog-item .square .content {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      bottom: 0;
+      background-color: rgba(204, 204, 204, 0.6);
+      padding-top: 20px; }
+      .blog-item .square .content a {
+        color: #4A367B; }
+
+.blogpage .header {
+  padding-top: 30px; }
+.blogpage .blogdate {
+  text-align: right; }
+
+.text img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto; }
+
 .contact {
   margin-top: 3rem;
   width: 100%;
@@ -261,11 +319,7 @@ body {
 .who-we-work-with {
   top: 100vh; }
 
-#home-jumbo {
-  background: url(../images/home-cover.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+.image-width img {
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

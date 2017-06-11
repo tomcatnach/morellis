@@ -14,7 +14,7 @@
     </div>
   </div>
 
-  <div class="container">
+  <div class="container top-margin">
     <div class="row">
       <div class="col-10 offset-md-2 col-md-8 offset-lg-3 col-lg-6">
         <h2>ASDF</h2>
@@ -25,7 +25,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 image-width">
         <img src="<?php $image = $page->midimage()->toFile();
                   if($image) {echo $image->url();}
                   unset($image);?>">
@@ -46,11 +46,11 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-10 offset-md-1 line"></div>
-      <div class="col-10 offset-md-2 col-md-8">
+      <div class="col-10 offset-1 col-md-10 offset-md-1 line"></div>
+      <div class="col-10 offset-1 offset-md-2 col-md-8">
         <p class="highlight"><?php echo $page->textthree()->html(); ?></p>
       </div>
-      <div class="col-10 col-md-10 offset-md-1 line"></div>
+      <div class="col-10 offset-1 col-md-10 offset-md-1 line"></div>
     </div>
   </div>
 

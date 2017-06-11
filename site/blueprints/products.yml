@@ -3,11 +3,11 @@ title: Products
 files: false
 
 pages:
-  template: products
+  template: product
 
-options: 
-  template: false   
-  url: false  
+options:
+  template: false
+  url: false
 
 fields:
   title:
@@ -17,7 +17,3 @@ fields:
   text:
     label: Text
     type:  textarea
-    
-  text2:
-    label: Text 2 Test
-    type: textarea

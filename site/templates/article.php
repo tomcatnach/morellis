@@ -1,27 +1,31 @@
 <?php snippet('header') ?>
-
+<div class="blogpage">
   <main class="main" role="main">
-    
-    <article class="article single wrap">
-
-      <header class="article-header">
-        <h1><?= $page->title()->html() ?></h1>
-        <div class="intro text">
-          <?= $page->date('F jS, Y') ?>
-        </div>
-        <hr />
-      </header>
-      
-      <?php snippet('coverimage', $page) ?>
-      
-      <div class="text">
-        <?= $page->text()->kirbytext() ?>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 offset-md-2 col-md-8 header">
+        <header>
+          <h1><?= $page->title()->html() ?></h1>
+          <div class="blogdate">
+            <?= $page->date('F jS, Y') ?>
+          </div>
+          <hr />
+        </header>
       </div>
-      
-    </article>
-    
-    <?php snippet('prevnext', ['flip' => true]) ?>
-    
-  </main>
+    </div>
+  </div>
 
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 offset-md-2 col-md-8">
+          <div class="text">
+            <?= $page->text()->kirbytext() ?>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  </main>
+</div>
 <?php snippet('footer') ?>

@@ -1,0 +1,41 @@
+h1 {
+text-align: center;
+font-family: washington;
+font-weight: bold;
+color: $deep_purple;
+text-transform: uppercase;
+font-size: 76px;
+letter-spacing: 3px;
+padding-top: 30px;
+  @media #{$lg} {
+      font-size: 60px;
+  }
+}
+
+.blog-item{
+  background-color: $deep-purple;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0 0 0 0;
+  .square{
+    padding-bottom: 100%;
+    background-color: rgba(151, 34, 192, 0.0);
+    transition: background-color 0.5s ease;
+    &:hover{
+      background-color: rgba(151, 34, 192, 0.6);
+    }
+    .content{
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      bottom: 0;
+      background-color: rgba(204, 204, 204, 0.6);
+      padding-top: 20px;
+      a {
+        color: $deep_purple;
+      }
+    }
+  }
+}

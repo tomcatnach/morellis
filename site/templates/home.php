@@ -1,7 +1,8 @@
 <?php snippet('header') ?>
 
 
-    <div class="jumbotron jumbotron-fluid" id="home-jumbo">
+    <div class="jumbotron jumbotron-fluid" id="home-jumbo"
+      <?php snippet('coverimage') ?> >
     </div>
 
     <div class="container" id="home-jumbo-content">
@@ -10,26 +11,26 @@
           <img src="../../assets/images/mg-logo-large.png">
           <div class="intro-text">
             <h2>
-              <?= $page->intro()->kirbytext() ?>
+              <?php $page->intro()->kirbytext() ?>
             </h2>
           </div>
           <div class="row info-boxes justify-content-around">
             <div class="col">
-              <a href="<?= $pages->findByURI('about')->url() ?>">
+              <a href="our-story">
                 <div id="story" class="info-box">
                   Our Story
                 </div>
               </a>
             </div>
             <div class="col">
-              <a href="<?= $pages->findByURI('products')->url() ?>" >
+              <a href="products" >
                 <div id="products" class="info-box">
                   Our Products
                 </div>
               </a>
             </div>
             <div class="col">
-              <a href="<?= $pages->findByURI('projects')->url() ?>" >
+              <a href="Stores" >
                 <div id="stores" class="info-box">
                   Our Stores
                 </div>
