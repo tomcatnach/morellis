@@ -48,7 +48,7 @@
     <div class="row">
       <div class="col-12 col-md-10 offset-md-1 line"></div>
       <div class="col-10 offset-md-2 col-md-8">
-        <p><?php echo $page->textthree()->html(); ?></p>
+        <p class="highlight"><?php echo $page->textthree()->html(); ?></p>
       </div>
       <div class="col-10 col-md-10 offset-md-1 line"></div>
     </div>

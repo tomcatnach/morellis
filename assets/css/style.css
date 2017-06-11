@@ -90,6 +90,12 @@
 .our-story p {
   color: #9fa3a7;
   font-size: 16px; }
+.our-story .highlight {
+  font-style: italic;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  padding-top: 18px; }
 .our-story .small-purple p {
   font-size: 14px;
   color: #4A367B;
