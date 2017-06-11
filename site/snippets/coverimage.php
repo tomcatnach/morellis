@@ -4,4 +4,4 @@ $image = $page->coverimage()->toFile();
 if($image):
 ?>
 style="background-image: url('<?= $image->url() ?>');"
-<?php endif ?>
+<?php unset($image); endif ?>

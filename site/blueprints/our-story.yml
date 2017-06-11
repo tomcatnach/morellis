@@ -20,3 +20,20 @@ fields:
   textone:
     label: Text First Box
     type: textarea
+  midimage:
+    label: Middle Image
+    type: image
+  pullout:
+    label: Pullout Text
+    type: textarea
+    width: 1/3
+  texttwo:
+    label: Text Second Box
+    width: 2/3
+    type: textarea
+  textthree:
+    label: Text Third Box
+    type: textarea
+  textfour:
+    label: Text Forth Box
+    type: textarea

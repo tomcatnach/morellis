@@ -87,10 +87,15 @@
   @media (max-width: 991px) {
     .our-story h1 {
       font-size: 60px; } }
-.our-story .cover-header p {
+.our-story p {
+  color: #9fa3a7;
+  font-size: 16px; }
+.our-story .small-purple p {
   font-size: 14px;
   color: #4A367B;
   font-style: italic; }
+.our-story .line {
+  border-top: 1px solid #e8e9ed; }
 
 .stores-page .header-row {
   margin-top: 50px;
