@@ -67,7 +67,7 @@
         <div class="col-6 col-md-4 col-lg-6">
           <?php $days = array ('Monday', 'Tuesday', 'Wednesday', 'Thursday',
             'Friday', 'Saturday', 'Sunday'); ?>
-          <?php foreach ($days as $day): ?>
+          <?php foreach ($days as $day) : ?>
             <div class="day address-font">
               <?php $openTime = $day . "open"; $closeTime = $day . "close";
               $toggle = $day . "toggle"; $dayShort = substr($day, 0, 3);?>
@@ -77,13 +77,13 @@
                   $subpage->$closeTime()->html(); ?></div>
               <?php else : ?>
                 <div class="closed">Closed</div>
-              <? endif; ?>
+              <?php endif; ?>
             </div>
-          <?php endforeach ?>
+          <?php endforeach; ?>
         </div>
       </div>
       <div class="test_border"></div>
-    <?php endforeach ?>
+    <?php endforeach ; ?>
   </div>
 </div>
 <?php snippet('footer') ?>
