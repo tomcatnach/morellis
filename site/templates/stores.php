@@ -20,14 +20,14 @@
     </div>
     <?php foreach($page->children()->visible() as $subpage): ?>
       <div class="row store_row">
-        <div class="col-6 col-md-4 col-lg-3">
+        <div class="col-12 col-md-4 offset-md-1 col-lg-3 offset-lg-1 offset-xl-2">
           <?php if($subpage->storeimage()->isNotEmpty()): ?>
             <div class="col align-self-center">
               <img src="<?= $subpage->storeimage()->toFile()->resize(190, 120)->url() ?>" alt="" />
             </div>
           <?php endif ?>
         </div>
-        <div class="col-6 col-md-4 col-lg-3">
+        <div class="col-6 col-md-3 col-lg-3">
           <div class="storeaddress">
             <a id="store-name" href="<?php echo $subpage->url() ?>">
               <?php echo html($subpage->title()) ?>
@@ -64,7 +64,7 @@
             <?php endif ?>
           </div>
         </div>
-        <div class="col-6 col-md-4 col-lg-6">
+        <div class="col-6 col-md-3 col-lg-4 col-xl-2">
           <?php $days = array ('Monday', 'Tuesday', 'Wednesday', 'Thursday',
             'Friday', 'Saturday', 'Sunday'); ?>
           <?php foreach ($days as $day) : ?>

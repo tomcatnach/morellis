@@ -130,6 +130,11 @@
       .stores-page .header-row h1 {
         font-size: 60px;
         text-align: center; } }
+.stores-page #map {
+  height: 600px; }
+  @media (max-width: 767px) {
+    .stores-page #map {
+      height: 300px; } }
 .stores-page .stores-list-container {
   margin-top: 30px; }
   .stores-page .stores-list-container .stores-border {
@@ -139,6 +144,8 @@
 .stores-page .store_row {
   padding-top: 15px;
   padding-bottom: 15px; }
+  .stores-page .store_row .align-self-center {
+    text-align: center; }
 .stores-page .test_border {
   width: 100%;
   border-top: 1px solid #e8e9ed; }
@@ -305,6 +312,10 @@ input[type=text] {
   background-position: center center;
   height: 600px;
   padding-top: 200px; }
+
+.navbar-toggler {
+  z-index: 999999;
+  background-color: white; }
 
 body {
   font-family: frutiger; }

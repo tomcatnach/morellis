@@ -29,7 +29,6 @@
                 </div>
               </a>
             </div>
-            
             <div class="col">
               <a href="Stores" >
                 <div id="stores" class="info-box">

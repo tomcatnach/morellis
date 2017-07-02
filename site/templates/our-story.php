@@ -17,7 +17,6 @@
   <div class="container top-margin">
     <div class="row">
       <div class="col-10 offset-md-2 col-md-8 offset-lg-3 col-lg-6">
-        <h2>ASDF</h2>
         <?php echo $page->textone()->kirbytext(); ?>
       </div>
     </div>
