@@ -13,12 +13,12 @@
         </div>
       </div>
       <div class="col-xs-12 offset-sm-1 col-sm-5">
-        <form>
+        <form  action="https://formspree.io/tom@notobl.com" method="POST">
           <div class="">
             <input type="text" name="name" placeholder="Name">
           </div>
           <div class="">
-            <input type="text" name="e-mail" placeholder="E-mail">
+            <input type="e-mail" name="e-mail" placeholder="E-mail">
           </div>
           <div class="">
             <input type="text" name="message" placeholder="Message">

@@ -2,10 +2,10 @@
     <div class="container foot">
       <div class="row">
         <div class="col-md-1 col-sm-6 col-2 social">
-          <img src="../../assets/images/fb_29_white.png">
+          <a href="https://en-gb.facebook.com/morellisgelatouk/" target="blank"><img src="../../assets/images/fb_29_white.png"></a>
         </div>
         <div class="col-md-1 col-sm-6 col-2 social">
-          <img src="../../assets/images/insta_29_white.png">
+          <a href="https://www.instagram.com/morellisgelato/" target="blank"><img src="../../assets/images/insta_29_white.png"></a>
         </div>
         <div class="offset-md-2 col-md-6 col-sm-12 info">
           Tel: +44 (0)203 602 0540  •  paula@morellisgelato.com  •  www.morellisgelato.com

@@ -13,6 +13,8 @@
   <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/fonts.css">
 
+  <link rel="shortcut icon" href="../../assets/images/favicon.ico" />
+
 </head>
 <body>
 
