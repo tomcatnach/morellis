@@ -22,7 +22,7 @@ if(isset($limit)) $credentials = $credentials->limit($limit);
 
   <?php foreach($credentials as $credential): ?>
     <?php if($credential->Credimage()->isNotEmpty()): ?>
-      <div class="col align-self-center">
+      <div class="col-6 col-xs-3 align-self-center">
         <img src="<?= $credential->Credimage()->toFile()->resize(150)->url() ?>" alt="" />
       </div>
     <?php endif ?>

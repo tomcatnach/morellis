@@ -6,11 +6,13 @@
           Contact Us
         </div>
         <div class="">
-          We always love to hear our customer's feedback, so either fill in the form opposite or contact us on the e-mail below.
+          We always love to hear our customer's feedback, so either fill in
+          the form opposite or contact us on the e-mail or phone number
+          in the footer.
         </div>
-        <div class="">
+        <!-- <div class="">
           <u><a href="mailto:info@morellis.com">info@morellis.com</a></u>
-        </div>
+        </div> -->
       </div>
       <div class="col-xs-12 offset-sm-1 col-sm-5">
         <form  action="https://formspree.io/tom@notobl.com" method="POST">

@@ -11,31 +11,31 @@
           <img src="../../assets/images/mg-logo-large.png">
           <div class="intro-text">
             <h2>
-              <?php $page->intro()->kirbytext() ?>
+              <?php echo $page->intro()->html() ?>
             </h2>
           </div>
           <div class="row info-boxes justify-content-around">
-            <div class="col">
+            <!-- <div class="col">
               <a href="our-story">
                 <div id="story" class="info-box">
                   Our Story
                 </div>
               </a>
-            </div>
+            </div> -->
             <div class="col">
-              <a href="products" >
+              <a href="blog" >
                 <div id="products" class="info-box">
-                  Our Products
+                  Our Blog
                 </div>
               </a>
             </div>
-            <div class="col">
+            <!-- <div class="col">
               <a href="Stores" >
                 <div id="stores" class="info-box">
                   Our Stores
                 </div>
               </a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

@@ -35,7 +35,8 @@
   #home-jumbo-content #home-jumbo-row {
     height: inherit; }
   #home-jumbo-content .intro-text {
-    margin-top: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
     color: white;
     font-family: washington; }
     #home-jumbo-content .intro-text h2 {
