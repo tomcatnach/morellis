@@ -71,17 +71,15 @@
     #home-jumbo-content .intro-text h2 {
       font-size: 2.5rem; } }
 
-#who-we-work-with {
-  text-align: center; }
-  #who-we-work-with .title {
-    font-family: washington;
-    font-weight: bold; }
-  #who-we-work-with h2 {
-    font-weight: bold;
-    color: #4A367B;
-    text-decoration: underline;
-    font-size: 3rem;
-    text-transform: uppercase; }
+#who-we-work-with .title {
+  font-family: washington;
+  font-weight: bold; }
+#who-we-work-with h2 {
+  font-weight: bold;
+  color: #4A367B;
+  text-decoration: underline;
+  font-size: 3rem;
+  text-transform: uppercase; }
 
 .media-row {
   margin-top: 2rem; }
