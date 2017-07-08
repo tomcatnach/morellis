@@ -10,6 +10,13 @@
   color: white;
   font-size: 0.75rem;
 
+  .info {
+    text-align: right;
+    @media #{$xs} {
+      text-align: left;
+    }
+  }
+
   .address {
     text-align: right;
     @media #{$xs} {

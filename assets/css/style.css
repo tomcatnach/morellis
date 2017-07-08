@@ -299,6 +299,11 @@ input[type=text] {
   padding-bottom: 30px;
   color: white;
   font-size: 0.75rem; }
+  .foot .info {
+    text-align: right; }
+    @media (max-width: 767px) {
+      .foot .info {
+        text-align: left; } }
   .foot .address {
     text-align: right; }
     @media (max-width: 767px) {
