@@ -4,14 +4,14 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1,
-    shrink-to-fit=no">
+  shrink-to-fit=no">
 
   <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
   <meta name="description" content="<?= $site->description()->html() ?>">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
-  <link rel="stylesheet" type="text/css" href="/assets/css/style.2b26c359ccd338e6.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
   <link rel="stylesheet" type="text/css" href="/assets/css/fonts.css">
 
   <link rel="shortcut icon" href="../../assets/images/favicon.ico" />

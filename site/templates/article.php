@@ -2,8 +2,8 @@
 <div class="blogpage">
   <main class="main" role="main">
   <div class="container">
-    <div class="row">
-      <div class="col-12 offset-md-2 col-md-8 header">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8 header">
         <header>
           <h1><?= $page->title()->html() ?></h1>
           <div class="blogdate">
@@ -17,8 +17,8 @@
 
   <article>
     <div class="container">
-      <div class="row">
-        <div class="col-12 offset-md-2 col-md-8">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8">
           <div class="text">
             <?= $page->text()->kirbytext() ?>
           </div>

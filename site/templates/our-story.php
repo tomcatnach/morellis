@@ -4,19 +4,21 @@
 
 <div class="our-story">
   <div class="container cover-header" <?php snippet('coverimage') ?>>
-    <div class="row">
-      <div class="col-12 col-md-4 offset-md-1 col-lg-3 offset-lg 1">
-        <h1><?php echo $page->title(); ?></h1>
-        <div class="intro small-purple">
-          <p><?php echo $page->intro()->html(); ?></p>
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-8">
+        <div class="col-12 col-md-6">
+          <h1><?php echo $page->title(); ?></h1>
+          <div class="intro small-purple">
+            <p><?php echo $page->intro()->html(); ?></p>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
   <div class="container top-margin">
-    <div class="row">
-      <div class="col-10 offset-md-2 col-md-8 offset-lg-3 col-lg-6">
+    <div class="row justify-content-center">
+      <div class="col-10 col-md-8 col-lg-6">
         <?php echo $page->textone()->kirbytext(); ?>
       </div>
     </div>
@@ -33,8 +35,8 @@
   </div>
 
   <div class="container">
-    <div class="row">
-      <div class="col-12 col-md-2 offset-md-2 offset-lg-3 col-lg-2 small-purple">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-2 small-purple">
         <p><?php echo $page->pullout()->html(); ?></p>
       </div>
       <div class="col-12 col-md-6 col-lg-4">
@@ -45,18 +47,28 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-10 offset-1 col-md-10 offset-md-1 line"></div>
-      <div class="col-10 offset-1 offset-md-2 col-md-8">
+      <div class="col-10 col-md-10 line mx-auto"></div>
+      <div class="col-10 col-md-8 mx-auto">
         <p class="highlight"><?php echo $page->textthree()->html(); ?></p>
       </div>
-      <div class="col-10 offset-1 col-md-10 offset-md-1 line"></div>
+      <div class="col-10 col-md-10 line mx-auto"></div>
     </div>
   </div>
 
   <div class="container">
-    <div class="row">
-      <div class="col-12 col-md-2 offset-md-2 offset-lg-3 col-lg-2">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6">
         <p><?php echo $page->textfour()->kirbytext(); ?></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8 image-width">
+        <img src="<?php $image = $page->endimage()->toFile();
+                  if($image) {echo $image->url();}
+                  unset($image);?>">
       </div>
     </div>
   </div>

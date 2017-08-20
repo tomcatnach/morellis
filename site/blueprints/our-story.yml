@@ -37,3 +37,6 @@ fields:
   textfour:
     label: Text Forth Box
     type: textarea
+  endimage:
+    label: End Image
+    type: image

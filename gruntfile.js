@@ -14,8 +14,8 @@ module.exports = function(grunt) {
 			taskName: {
 					options: {
 							assets: ['assets/css/style.css'],
-							deleteOriginals: false,
-							createCopies: true,
+							deleteOriginals: true,
+							createCopies: false,
 					},
 					src: ['site/snippets/header.php']
 			}
@@ -24,7 +24,7 @@ module.exports = function(grunt) {
 		watch: {
 			css: {
 				files: '**/*.scss',
-				tasks: ['sass', 'cacheBust']
+				tasks: ['sass']
 			}
 		}
 

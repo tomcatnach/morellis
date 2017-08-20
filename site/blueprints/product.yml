@@ -5,7 +5,9 @@ fields:
   title:
     label: Title
     type:  text
-
   coverimage:
     label: image
     type: image
+  intro:
+    label: Text
+    type:  textarea

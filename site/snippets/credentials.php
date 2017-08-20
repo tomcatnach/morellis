@@ -20,10 +20,18 @@ if(isset($limit)) $credentials = $credentials->limit($limit);
 
 ?>
 
-  <?php foreach($credentials as $credential): ?>
-    <?php if($credential->Credimage()->isNotEmpty()): ?>
-      <div class="col-6 col-md-3 align-self-center">
-        <img src="<?= $credential->Credimage()->toFile()->resize(150)->url() ?>" alt="" />
-      </div>
-    <?php endif ?>
-  <?php endforeach ?>
+<div id="carouselExampleSlidesOnly" class="carousel slide col-12" data-ride="carousel">
+  <div class="carousel-inner">
+    <?php $first = true; ?>
+    <?php foreach($credentials as $credential): ?>
+      <?php if($credential->Credimage()->isNotEmpty()): ?>
+        <div class="carousel-item credential
+          <?php if ($first):?> active <?php endif; $first = false;?>
+        ">
+          <img class="d-block"  alt="First slide"
+          src="<?= $credential->Credimage()->toFile()->resize(150)->url() ?>">
+        </div>
+      <?php endif ?>
+    <?php endforeach ?>
+  </div>
+</div>

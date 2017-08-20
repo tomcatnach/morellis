@@ -8,8 +8,8 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-3 offset-2 store-address">
+      <div class="row justify-content-center">
+        <div class="col-3 store-address">
           <?php if(!$page->lineone()->empty()): ?>
             <div class="address-font" id="line-one">
               <?php echo $page->lineone()->html() ?>
@@ -44,25 +44,32 @@
         <div class="col-2 opentime">
           <?php $days = array ('Monday', 'Tuesday', 'Wednesday', 'Thursday',
             'Friday', 'Saturday', 'Sunday'); ?>
-          <?php foreach ($days as $day): ?>
-            <div class="day address-font">
-              <?php $openTime = $day . "open"; $closeTime = $day . "close";
-              $toggle = $day . "toggle"; $dayShort = substr($day, 0, 3);?>
-              <div class="dayname"><?php echo $dayShort; ?></div>
-              <?php if ($page->$toggle() == '1'): ?>
-                <div class="open"><?php echo $page->$openTime()->html() . " - " .
-                  $page->$closeTime()->html(); ?></div>
-              <?php else : ?>
-                <div class="closed">Closed</div>
-              <? endif; ?>
-            </div>
-          <?php endforeach ?>
+            <?php foreach ($days as $day): ?>
+              <div class="day address-font">
+                <?php $openTime = $day . "open"; $closeTime = $day . "close";
+                $toggle = $day . "toggle"; $dayShort = substr($day, 0, 3);?>
+                <div class="dayname"><?php echo $dayShort; ?></div>
+                <?php if ($page->$toggle() == '1'): ?>
+                  <div class="open"><?php echo $page->$openTime()->html() . " - " .
+                    $page->$closeTime()->html(); ?></div>
+                <?php else : ?>
+                  <div class="closed">Closed</div>
+                <?php endif; ?>
+              </div>
+            <?php endforeach; ?>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <?= $page->tripadvisor()->html() ?>
         </div>
       </div>
     </div>
     <div class="container store-text">
-      <div class="row">
-        <div class="col-6 offset-3 two-columns">
+      <div class="row justify-content-center">
+        <div class="col-6 two-columns">
           <?php echo $page->description()->kirbytext() ?>
         </div>
       </div>

@@ -58,6 +58,9 @@ fields:
       Move the pin wherever you'd like, or search for a location!
   line-b:
     type: line
+  tripadvisor:
+    label: Trip Advisor HTML
+    type: textarea
   storeImage:
     label: Image
     type: image

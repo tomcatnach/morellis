@@ -48,7 +48,7 @@
         </div>
       </div>
       <div class="row">
-        <?php snippet('credentials', ['limit' => 5]) ?>
+        <?php snippet('credentials') ?>
       </div>
     </div>
 

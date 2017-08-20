@@ -2,8 +2,8 @@
 
 <main class="main" role="main">
 <div class="container">
-  <div class="row">
-    <div class="col-12 offset-md-2 col-md-8">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8">
       <header class="wrap">
         <h1><?= $page->title()->html() ?></h1>
         <div><?php echo $page->text()->kirbytext() ?></div>
@@ -27,6 +27,16 @@
           <?php unset($image); endif ?>
           >
           <div class="square">
+            <!-- TITLES AND LINKS -->
+            <!-- <div class="content">
+              <header class="">
+                <h2 class="">
+                  <a href="<?= $article->url() ?>">
+                    <?= $article->title()->html() ?>
+                  </a>
+                </h2>
+              </header>
+            </div> -->
           </div>
         </div>
       <?php endforeach ?>

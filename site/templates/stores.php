@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 <div class="stores-page">
   <div class="container">
-    <div class="row align-items-center header-row">
+    <div class="row justify-content-center header-row">
       <div class="col-12 col-md-6">
         <h1>Our Stores</h1>
       </div>
@@ -19,8 +19,8 @@
       <div class="col-12"><div class="stores-border"></div></div>
     </div>
     <?php foreach($page->children()->visible() as $subpage): ?>
-      <div class="row store_row">
-        <div class="col-12 col-md-4 offset-md-1 col-lg-3 offset-lg-1 offset-xl-2">
+      <div class="row store_row justify-content-center">
+        <div class="col-12 col-md-4 col-lg-3">
           <?php if($subpage->storeimage()->isNotEmpty()): ?>
             <div class="col align-self-center">
               <img src="<?= $subpage->storeimage()->toFile()->resize(190, 120)->url() ?>" alt="" />

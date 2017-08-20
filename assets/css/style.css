@@ -95,6 +95,7 @@
   font-weight: bold;
   color: #4A367B;
   text-transform: uppercase;
+  text-align: left;
   font-size: 76px;
   letter-spacing: 3px; }
   @media (max-width: 991px) {
@@ -322,6 +323,11 @@ input[type=text] {
 .navbar-toggler {
   z-index: 999999;
   background-color: white; }
+
+.credential {
+  height: 150px; }
+  .credential img {
+    margin: 0 auto; }
 
 body {
   font-family: frutiger; }
