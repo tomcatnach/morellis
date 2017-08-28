@@ -8,8 +8,8 @@
           </div>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-3 store-address">
+      <div class="row justify-content-center address-times">
+        <div class="col-5 col-md-3 store-address">
           <?php if(!$page->lineone()->empty()): ?>
             <div class="address-font" id="line-one">
               <?php echo $page->lineone()->html() ?>
@@ -41,7 +41,7 @@
             </div>
           <?php endif ?>
         </div>
-        <div class="col-2 opentime">
+        <div class="col-auto opentime">
           <?php $days = array ('Monday', 'Tuesday', 'Wednesday', 'Thursday',
             'Friday', 'Saturday', 'Sunday'); ?>
             <?php foreach ($days as $day): ?>
@@ -59,17 +59,17 @@
             <?php endforeach; ?>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-3">
-          <?= $page->tripadvisor()->html() ?>
-        </div>
-      </div>
+      <?php if($page->tripadvisor() != ''): ?>
+          <div class="row justify-content-center">
+            <div class="col-auto">
+              <?= $page->tripadvisor()->html() ?>
+            </div>
+          </div>
+      <?php endif ?>
     </div>
     <div class="container store-text">
       <div class="row justify-content-center">
-        <div class="col-6 two-columns">
+        <div class="col-10 col-md-6 two-columns">
           <?php echo $page->description()->kirbytext() ?>
         </div>
       </div>

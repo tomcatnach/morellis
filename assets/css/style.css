@@ -168,6 +168,9 @@
 
 .day .dayname {
   width: 70px; }
+  @media (max-width: 767px) {
+    .day .dayname {
+      width: 50px; } }
 
 .store-page h1 {
   text-align: center;
@@ -200,6 +203,15 @@
     -moz-column-count: 2;
     /* Firefox */
     column-count: 2; }
+    @media (max-width: 991px) {
+      .store-page .store-text .two-columns {
+        -webkit-column-count: 1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count: 1;
+        /* Firefox */
+        column-count: 1; } }
+.store-page .address-times {
+  margin-bottom: 20px; }
 
 h1 {
   text-align: center;
@@ -319,6 +331,9 @@ input[type=text] {
   background-position: center center;
   height: 600px;
   padding-top: 200px; }
+  @media (max-width: 767px) {
+    .cover-header {
+      padding-top: 20%; } }
 
 .navbar-toggler {
   z-index: 999999;

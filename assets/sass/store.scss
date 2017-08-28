@@ -50,6 +50,14 @@
       -webkit-column-count: 2; /* Chrome, Safari, Opera */
       -moz-column-count: 2; /* Firefox */
       column-count: 2;
+      @media #{$lg} {
+        -webkit-column-count: 1; /* Chrome, Safari, Opera */
+        -moz-column-count: 1; /* Firefox */
+        column-count: 1;
+      }
     }
+  }
+  .address-times{
+    margin-bottom: 20px;
   }
 }

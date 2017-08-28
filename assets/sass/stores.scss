@@ -85,6 +85,9 @@
 
   .dayname {
     width: 70px;
+    @media #{$xs} {
+      width: 50px;
+    }
   }
 
 }
