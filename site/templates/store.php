@@ -59,13 +59,13 @@
             <?php endforeach; ?>
         </div>
       </div>
-      <?php if($page->tripadvisor() != ''): ?>
-          <div class="row justify-content-center">
-            <div class="col-auto">
-              <?= $page->tripadvisor()->html() ?>
-            </div>
-          </div>
-      <?php endif ?>
+      <div class="row justify-content-center">
+        <?php if($page->tripadvisor() != ''): ?>  
+              <div class="col-auto">
+                <?= $page->tripadvisor()->html() ?>
+              </div>
+        <?php endif ?>
+      </div>
     </div>
     <div class="container store-text">
       <div class="row justify-content-center">
