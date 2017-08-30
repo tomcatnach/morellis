@@ -344,6 +344,15 @@ input[type=text] {
   .credential img {
     margin: 0 auto; }
 
+.franchise .fran-form {
+  background-color: #4A367B;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .franchise .fran-form input, .franchise .fran-form textarea {
+    width: 100%;
+    margin-top: 10px;
+    border: 3px solid #D7D4E9; }
+
 body {
   font-family: frutiger; }
 
