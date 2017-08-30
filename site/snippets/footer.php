@@ -1,4 +1,8 @@
-  <footer class="footer" role="contentinfo">
+  <footer class="footer" role="contentinfo"
+    <?php if($page->isHomePage()): ?>
+      style="margin-top: 3px;"
+    <?php endif ?>
+  >
     <div class="container foot">
       <div class="row">
         <div class="col-md-1 col-sm-6 col-2 social">

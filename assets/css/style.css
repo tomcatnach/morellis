@@ -304,11 +304,11 @@ input[type=text] {
   color: white; }
 
 .footer {
-  background-color: #4A367B; }
+  background-color: #4A367B;
+  margin-top: 40px; }
 
 .foot {
   background-color: #4A367B;
-  border-top: 3px solid white;
   padding-top: 30px;
   padding-bottom: 30px;
   color: white;
@@ -344,14 +344,34 @@ input[type=text] {
   .credential img {
     margin: 0 auto; }
 
+.franchise h1 {
+  margin-bottom: 30px; }
+.franchise .fran-text img {
+  width: -webkit-fill-available;
+  border: 3px solid #D7D4E9; }
 .franchise .fran-form {
   background-color: #4A367B;
   padding-top: 30px;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  border: 3px solid #D7D4E9; }
+  .franchise .fran-form .title h3 {
+    color: white;
+    text-align: center; }
+  .franchise .fran-form label {
+    color: #D7D4E9; }
   .franchise .fran-form input, .franchise .fran-form textarea {
     width: 100%;
-    margin-top: 10px;
-    border: 3px solid #D7D4E9; }
+    margin-bottom: 10px;
+    border: 3px solid #D7D4E9;
+    padding: 10px;
+    font-size: 14px;
+    color: #4A367B; }
+  .franchise .fran-form textarea {
+    height: 170px; }
+  .franchise .fran-form button {
+    background-color: #D7D4E9;
+    width: 100%;
+    color: #4A367B; }
 
 body {
   font-family: frutiger; }
