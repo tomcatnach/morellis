@@ -1,10 +1,12 @@
 #home-jumbo {
-  background: no-repeat center center fixed;
+  position: fixed;
+  background: no-repeat center center;
   background-color: $deep-purple;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  z-index: -10;
 }
 
 #home-jumbo-content{
@@ -73,8 +75,13 @@
 
 }
 
+.white-background {
+  background-color: white;
+}
+
 #who-we-work-with {
   text-align: center;
+  background-color: white;
 
   .title {
     font-family: washington;
@@ -93,4 +100,5 @@
 
 .media-row {
   margin-top: 2rem;
+  background-color: white;
 }

@@ -19,12 +19,14 @@
   text-decoration: underline; }
 
 #home-jumbo {
-  background: no-repeat center center fixed;
+  position: fixed;
+  background: no-repeat center center;
   background-color: #4A367B;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  z-index: -10; }
 
 #home-jumbo-content {
   height: 90vh;
@@ -71,8 +73,12 @@
     #home-jumbo-content .intro-text h2 {
       font-size: 2.5rem; } }
 
+.white-background {
+  background-color: white; }
+
 #who-we-work-with {
-  text-align: center; }
+  text-align: center;
+  background-color: white; }
   #who-we-work-with .title {
     font-family: washington;
     font-weight: bold; }
@@ -84,7 +90,8 @@
     text-transform: uppercase; }
 
 .media-row {
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  background-color: white; }
 
 .our-story .top-margin {
   margin-top: 30px; }
