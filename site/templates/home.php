@@ -54,7 +54,7 @@
       </div>
 
       <div class="container media-row">
-        <div class="row">
+        <div class="row no-gutters">
           <div class="instagram col-4">
             <!-- LightWidget WIDGET -->
             <iframe src="//lightwidget.com/widgets/24d94ddc518357bbb2c481b7c064b569.html" scrolling="no"
