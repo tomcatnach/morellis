@@ -73,8 +73,9 @@
         </div>
       </div>
       <?php snippet('contact') ?>
-    </div>
 
 <script src="//lightwidget.com/widgets/lightwidget.js"></script>
 
 <?php snippet('footer') ?>
+
+</div> <!-- scrappy white background fix -->
