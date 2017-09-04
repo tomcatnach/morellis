@@ -40,10 +40,10 @@
     margin-top: 2rem;
     margin-bottom: 1.5rem;
     color: white;
-    font-family: washington; }
+    font-family: WashingtonLight; }
     #home-jumbo-content .intro-text h2 {
-      font-size: 4rem;
       font-weight: bold;
+      font-size: 4rem;
       text-align: center; }
   #home-jumbo-content .info-box {
     border-style: solid;
@@ -80,8 +80,7 @@
   text-align: center;
   background-color: white; }
   #who-we-work-with .title {
-    font-family: washington;
-    font-weight: bold; }
+    font-family: WashingtonBold; }
   #who-we-work-with h2 {
     font-weight: bold;
     color: #4A367B;
@@ -98,8 +97,7 @@
 .our-story .container {
   margin-bottom: 30px; }
 .our-story h1 {
-  font-family: washington;
-  font-weight: bold;
+  font-family: washingtonBold;
   color: #4A367B;
   text-transform: uppercase;
   text-align: left;
@@ -129,8 +127,7 @@
   margin-bottom: 50px; }
   .stores-page .header-row h1 {
     text-align: right;
-    font-family: washington;
-    font-weight: bold;
+    font-family: washingtonBold;
     color: #4A367B;
     text-transform: uppercase;
     font-size: 76px;
@@ -181,8 +178,7 @@
 
 .store-page h1 {
   text-align: center;
-  font-family: washington;
-  font-weight: bold;
+  font-family: washingtonBold;
   color: white;
   text-transform: uppercase;
   font-size: 76px;
@@ -222,8 +218,7 @@
 
 h1 {
   text-align: center;
-  font-family: washington;
-  font-weight: bold;
+  font-family: washingtonBold;
   color: #4A367B;
   text-transform: uppercase;
   font-size: 76px;
@@ -274,8 +269,7 @@ h1 {
   padding-top: 2rem;
   padding-bottom: 2rem; }
   .contact .title {
-    font-family: washington;
-    font-weight: bold;
+    font-family: washingtonBold;
     font-size: 4rem; }
   .contact a {
     color: white; }

@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: washington;
     src: url(../fonts/washington/washington.ttf);
 }
@@ -6,8 +6,19 @@
     font-family: washington;
     src: url(../fonts/washington/washington-d-regular.ttf);
     font-weight: bold;
-}
+}*/
 
+
+.WashingtonBold {
+	font-family: WashingtonBold;
+	font-weight: normal;
+	font-style: normal;
+}
+.WashingtonLight {
+	font-family: WashingtonLight;
+	font-weight: normal;
+	font-style: normal;
+}
 
 @font-face {
   font-family: frutiger;

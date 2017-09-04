@@ -20,6 +20,7 @@
           <label for="message">Message</label>
           <textarea id="message" name="message" placeholder="Your message">
           </textarea>
+          <input type="hidden" name="_next" value="/thankyou" />
           <button type="submit">Send</button>
         </form>
       </div>
