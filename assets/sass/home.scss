@@ -21,6 +21,13 @@
     height: inherit;
   }
 
+  .shadow {
+    background-color: rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 0px 80px 53px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 80px 53px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 80px 53px rgba(0,0,0,0.3);
+  }
+
   .intro-text{
     margin-top: 2rem;
     margin-bottom: 1.5rem;

@@ -7,7 +7,7 @@
 
     <div class="container" id="home-jumbo-content">
       <div class="row" id="home-jumbo-row">
-        <div class="col-12 col-xl-6 col align-self-center">
+        <div class="col-12 col-xl-6 col align-self-center shadow">
           <img src="../../assets/images/mg-logo-large.png">
           <div class="intro-text">
             <h2>
