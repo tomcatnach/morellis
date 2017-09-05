@@ -34,7 +34,7 @@
     </div>
   </div>
 
-  <div class="container">
+  <!-- <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 col-md-2 small-purple">
         <p><?php echo $page->pullout()->html(); ?></p>
@@ -43,7 +43,7 @@
         <?php echo $page->texttwo()->kirbytext(); ?>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="container">
     <div class="row">
