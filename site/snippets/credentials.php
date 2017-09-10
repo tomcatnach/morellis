@@ -20,7 +20,7 @@ if(isset($limit)) $credentials = $credentials->limit($limit);
 
 ?>
 
-<div id="carouselExampleSlidesOnly" class="carousel slide col-12" data-ride="carousel">
+<div id="carouselExampleSlidesOnly" data-interval="1500" class="carousel slide col-12" data-ride="carousel">
   <div class="carousel-inner">
     <?php $first = true; ?>
     <?php foreach($credentials as $credential): ?>
