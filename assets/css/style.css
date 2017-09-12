@@ -114,9 +114,15 @@
 .our-story .highlight {
   font-style: italic;
   font-size: 24px;
-  color: #9fa3a7;
+  color: #4A367B;
   text-align: center;
   padding-top: 18px; }
+.our-story .image-helper {
+  height: 550px;
+  background-size: cover;
+  background-position-y: 50%; }
+.our-story .bibi-helper {
+  background-position-x: 60%; }
 .our-story .small-purple p {
   font-size: 14px;
   color: #4A367B;

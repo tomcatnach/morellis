@@ -46,12 +46,20 @@
   </div> -->
 
   <div class="container">
-    <div class="row">
-      <div class="col-10 col-md-10 line mx-auto"></div>
-      <div class="col-10 col-md-8 mx-auto">
+    <div class="row image-helper"
+      <?php
+        $image = $page->textthreeimage()->toFile();
+        // check if the image exists!
+        if($image):
+      ?>
+      style="background-image: url('<?= $image->url() ?>');"
+      <?php unset($image); endif ?>
+    >
+      <!-- <div class="col-10 col-md-10 line mx-auto"></div> -->
+      <div class="col-10 col-md-8 mx-auto align-self-center">
         <p class="highlight"><?php echo $page->textthree()->html(); ?></p>
       </div>
-      <div class="col-10 col-md-10 line mx-auto"></div>
+      <!-- <div class="col-10 col-md-10 line mx-auto"></div> -->
     </div>
   </div>
 
@@ -59,6 +67,32 @@
     <div class="row justify-content-center">
       <div class="col-12 col-md-6">
         <p><?php echo $page->textfour()->kirbytext(); ?></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row image-helper bibi-helper"
+      <?php
+        $image = $page->textfiveimage()->toFile();
+        // check if the image exists!
+        if($image):
+      ?>
+      style="background-image: url('<?= $image->url() ?>');"
+      <?php unset($image); endif ?>
+    >
+      <!-- <div class="col-10 col-md-10 line mx-auto"></div> -->
+      <div class="col-10 col-md-8 mx-auto align-self-center">
+        <p class="highlight"><?php echo $page->textfive()->html(); ?></p>
+      </div>
+      <!-- <div class="col-10 col-md-10 line mx-auto"></div> -->
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6">
+        <p><?php echo $page->textsix()->kirbytext(); ?></p>
       </div>
     </div>
   </div>

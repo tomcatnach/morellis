@@ -26,7 +26,7 @@ fields:
   pullout:
     label: Pullout Text
     type: textarea
-    width: 1/3
+    width: 2/3
   texttwo:
     label: Text Second Box
     width: 2/3
@@ -34,8 +34,24 @@ fields:
   textthree:
     label: Text Third Box
     type: textarea
+    width: 2/3
+  textthreeimage:
+    label: Tex Third Box Image
+    width: 1/3
+    type: image
   textfour:
     label: Text Forth Box
+    type: textarea
+  textfive:
+    label: Text Fifth Box
+    type: textarea
+    width: 2/3
+  textfiveimage:
+    label: Tex Fifth Box Image
+    width: 1/3
+    type: image
+  textsix:
+    label: Text Sixth Box
     type: textarea
   endimage:
     label: End Image
