@@ -398,4 +398,10 @@ p {
   color: #9fa3a7;
   font-size: 16px; }
 
+.thank-you p {
+  text-align: center; }
+
+.product {
+  border: 10px solid white; }
+
 /*# sourceMappingURL=style.css.map */

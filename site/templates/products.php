@@ -17,13 +17,13 @@
   <div class="row">
 
       <?php foreach($page->children()->visible() as $article): ?>
-        <div class="col-12 col-sm-6 col-lg-4 blog-item"
+        <div class="col-12 col-sm-6 col-lg-4 blog-item product"
           <?php
           $image = $article->coverimage()->toFile();
           // check if the image exists!
           if($image):
           ?>
-          style="background-image: url('<?= $image->resize(380, 380)->url() ?>'); "
+          style="background-image: url('<?= $image->resize(360, 360)->url() ?>'); "
           <?php unset($image); endif ?>
           >
           <div class="square">

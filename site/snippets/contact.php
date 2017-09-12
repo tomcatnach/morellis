@@ -25,6 +25,7 @@
           <div class="">
             <input type="text" name="message" placeholder="Message">
           </div>
+          <input type="hidden" name="_next" value="/thankyou" />
           <div class="">
             <input type="submit" value="Submit">
           </div>
