@@ -3,7 +3,7 @@
 <main class="main" role="main">
 
 <div class="our-story">
-  <div class="container cover-header" <?php snippet('coverimage') ?>>
+  <div class="container cover-header cover-helper" <?php snippet('coverimage') ?>>
     <div class="row justify-content-center">
       <div class="col-12 col-md-10 col-lg-8">
         <div class="col-12 col-md-6">

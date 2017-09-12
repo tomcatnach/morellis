@@ -101,6 +101,8 @@
   margin-top: 30px; }
 .our-story .container {
   margin-bottom: 30px; }
+.our-story .cover-helper {
+  background-position-x: 30%; }
 .our-story h1 {
   font-family: washingtonBold;
   color: #4A367B;
