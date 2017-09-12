@@ -7,7 +7,7 @@
         </div>
         <div class="">
           We always love to hear our customer's feedback, so either fill in
-          the form opposite or contact us on the e-mail or phone number
+          the form or contact us on the e-mail or phone number
           in the footer.
         </div>
         <!-- <div class="">

@@ -38,4 +38,10 @@
     border-top: 1px solid $light_grey;
   }
 
+  p {
+    img {
+      max-width: 100%;
+    }
+  }
+
 }

@@ -123,6 +123,8 @@
   font-style: italic; }
 .our-story .line {
   border-top: 1px solid #e8e9ed; }
+.our-story p img {
+  max-width: 100%; }
 
 .stores-page .header-row {
   margin-top: 50px;
