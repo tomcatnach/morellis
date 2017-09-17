@@ -20,14 +20,26 @@ if(isset($limit)) $credentials = $credentials->limit($limit);
 
 ?>
 
-<div id="carouselExampleSlidesOnly" data-interval="1500" class="carousel slide col-12" data-ride="carousel">
+<div id="carouselExampleSlidesOnly" data-interval="3000" class="carousel slide col-12" data-ride="carousel">
   <div class="carousel-inner">
-    <?php $first = true; ?>
-    <?php foreach($credentials as $credential): ?>
+    <?php
+      $first = true;
+      foreach($credentials as $credential):
+    ?>
       <?php if($credential->Credimage()->isNotEmpty()): ?>
-        <div class="carousel-item credential
-          <?php if ($first):?> active <?php endif; $first = false;?>
-        ">
+        <div
+          class="
+            <?php if ($first):?> active <?php endif; $first = false;?>
+            carousel-item credential
+          "
+          <?php
+          $image = $credential->credImageBg()->toFile();
+          // check if the image exists!
+          if($image):
+          ?>
+          style="background-image: url('<?= $image->url() ?>');"
+          <?php unset($image); endif ?>
+        >
           <img class="d-block"  alt="First slide"
           src="<?= $credential->Credimage()->toFile()->resize(150)->url() ?>">
         </div>

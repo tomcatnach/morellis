@@ -355,9 +355,12 @@ input[type=text] {
   background-color: white; }
 
 .credential {
-  height: 150px; }
+  height: 300px;
+  text-align: center;
+  background-size: cover; }
   .credential img {
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-top: 10%; }
 
 .franchise h1 {
   margin-bottom: 30px; }

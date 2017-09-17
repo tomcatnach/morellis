@@ -48,8 +48,10 @@
             <h2>Who we serve</h2>
           </div>
         </div>
-        <div class="row">
-          <?php snippet('credentials') ?>
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-8 col-md-6">
+            <?php snippet('credentials') ?>
+          </div>
         </div>
       </div>
 
