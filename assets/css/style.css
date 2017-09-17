@@ -366,7 +366,8 @@ input[type=text] {
   margin-bottom: 30px; }
 .franchise .fran-text img {
   width: -webkit-fill-available;
-  border: 3px solid #D7D4E9; }
+  border: 3px solid #D7D4E9;
+  max-width: 100%; }
 .franchise .fran-form {
   background-color: #4A367B;
   padding-top: 30px;
