@@ -20,7 +20,7 @@ if(isset($limit)) $credentials = $credentials->limit($limit);
 
 ?>
 
-<div id="carouselExampleSlidesOnly" data-interval="3000" class="carousel slide col-12" data-ride="carousel">
+<div id="carouselExampleSlidesOnly" data-interval="300000" class="carousel slide col-12" data-ride="carousel">
   <div class="carousel-inner">
     <?php
       $first = true;
@@ -37,7 +37,7 @@ if(isset($limit)) $credentials = $credentials->limit($limit);
           // check if the image exists!
           if($image):
           ?>
-          style="background-image: url('<?= $image->url() ?>');"
+          style="background-image: url('<?= $image->resize(510, 300)->url() ?>');"
           <?php unset($image); endif ?>
         >
           <img class="d-block"  alt="First slide"

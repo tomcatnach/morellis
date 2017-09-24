@@ -357,10 +357,14 @@ input[type=text] {
 .credential {
   height: 300px;
   text-align: center;
-  background-size: cover; }
+  background-size: cover;
+  background-color: #D7D4E9; }
   .credential img {
     margin: 0 auto;
-    padding-top: 10%; }
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0; }
 
 .franchise h1 {
   margin-bottom: 30px; }
