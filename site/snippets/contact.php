@@ -15,7 +15,7 @@
         </div> -->
       </div>
       <div class="col-xs-12 offset-sm-1 col-sm-5">
-        <form  action="https://formspree.io/tom@notobl.com" method="POST">
+        <form  action="https://formspree.io/paula@morellisgelato.com" method="POST">
           <div class="">
             <input type="text" name="name" placeholder="Name">
           </div>

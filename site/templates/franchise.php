@@ -14,7 +14,7 @@
         <div class="title">
           <h3>CONTACT</h3>
         </div>
-        <form method="POST" action="http://formspree.io/tom@notobl.com">
+        <form method="POST" action="http://formspree.io/paula@morellisgelato.com">
           <label for="email">Your Email</label>
           <input id="email" type="email" name="email" placeholder="Your email">
           <label for="message">Message</label>
