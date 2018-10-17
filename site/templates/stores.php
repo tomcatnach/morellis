@@ -6,7 +6,7 @@
         <h1>Our Stores</h1>
       </div>
       <div class="col-12 col-md-4 col-lg-3 col-xl-2">
-        <p>We have 18 stores worldwide and we’re always looking to expand.
+        <p>We have 12 stores worldwide and we’re always looking to expand.
         If you would like more details about being a franchisee click here.</p>
       </div>
     </div>
